@@ -1,2 +1,3 @@
-# grid-demo
-student start files for grid layout
+# CS1 grid-demo exercise 🦁 💪 🎇
+student starter files for grid layout
+
