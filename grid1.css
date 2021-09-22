@@ -9,3 +9,29 @@
 
 
 /* Place all of your css below this line!!! */
+.mygrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 2fr);
+    gap: 10px;
+    grid-template-rows: repeat(8, 60px);
+}
+
+.box1{           
+    grid-column: 1 / -1;
+
+}
+.box2{
+    /* alays on the right side & always take up 2 cols*/
+    grid-column: span 2 / -1;
+}
+.box6{
+    /* always on the left side start a row 1 and stop at 1 row form the bottom */
+    grid-column: 1 / 2;
+    grid-row: 2/ span 4;
+}
+
+.box5{
+    /* make it always take up the full last row */
+    grid-row: span 1/ -1;
+    grid-column: -1/1;
+}
