@@ -1,0 +1,11 @@
+*,*::before,*::after{box-sizing: border-box;}
+.box{
+    border:3px solid #ca2437;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+
+/* Place all of your css below this line!!! */
